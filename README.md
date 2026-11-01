@@ -27,7 +27,7 @@ A beginner-friendly internship listing website built using HTML, CSS and JavaScr
 3. Search and filter internship opportunities.
 
 ## Author
-Shakileash
+Shakileash I
 
 ## Screenshots
 Add screenshots of the desktop and mobile versions here.
