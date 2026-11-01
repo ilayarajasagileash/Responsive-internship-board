@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Internship Board</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>Internship Board</h1>
+        <p>Find your next internship opportunity</p>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search internships..."
+            aria-label="Search internships"
+        >
+
+        <select id="domainFilter" aria-label="Filter by domain">
+            <option value="all">All Domains</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Python">Python</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Java">Java</option>
+        </select>
+
+    </section>
+
+    <!-- Internship Listings -->
+    <main>
+
+        <h2>Available Internships</h2>
+
+       <div id="internshipList"
+     class="internship-list"
+     aria-live="polite">
+    <p>Loading internships...</p>
+</div>
+
+        <div id="emptyMessage" class="empty-message" hidden>
+    <h3>No internships found!</h3>
+    <p>Try another search or select a different domain.</p>
+</div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
